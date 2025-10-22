@@ -99,11 +99,20 @@ body {
 }
 .contenedor_menu {
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     flex-direction: column; /* mantiene columna general si hay más cosas arriba/abajo */
     padding: 40px;
-}
+    background-color: #1a1a1a;
+    border-radius: 15px;
 
+}
+.contenedor_menu h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    font-size: 36px;
+}
 .contenedor_menu ul {
     display: flex;          /* pone los li en fila */
     gap: 20px;
@@ -114,6 +123,7 @@ body {
 
 .contenedor_menu ul li {
     text-align: center;     /* centra el texto sobre la imagen */
+    color: white;
 }
 
 .contenedor_menu ul li h3 {
@@ -134,3 +144,4 @@ body {
     transform: translateY(-20px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
+
